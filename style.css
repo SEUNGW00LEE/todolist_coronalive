@@ -1,0 +1,149 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+	color: white;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block;
+}
+
+ol, ul, li {
+    list-style:none;
+}
+
+body {
+	width: 100%;
+	line-height: 1;
+}
+
+.hidden {
+	display: none;
+}
+
+sortable-placeholder {opacity:0.5}
+
+.background_image {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.clock_wrap {
+	width: 100%;
+}
+
+#clock {
+	margin-top: 30px;
+	font-size: 5em;
+	text-align: center;
+	border: none;
+	font-weight: bold;
+font-family: 'Tourney', cursive;	
+}
+
+input::placeholder {
+	color: white;
+}
+
+.login_wrap {
+	width: 500px;
+	height: 50px;
+	margin: 50px auto 0;
+}
+
+.login-input {
+	width: 300px;
+	height: 50px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 3px solid white;
+	background: none;
+}
+
+.login-button {
+	background: none;
+	width: 100px;
+	height: 55px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 3px solid white;
+	color: white;
+}
+
+#greeting {
+	font-size: 50px;
+	font-family: 'Nanum Pen Script', cursive;
+}
+
+.todo_wrap {
+	width: 500px;
+	margin: 50px auto 0;
+}
+
+.todo_input {
+	width: 300px;
+	height: 50px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 3px solid white;
+	background: none;
+}
+
+.list_wrap {
+	display: flex;
+}
+
+.todo-list {
+	margin-top: 20px;
+	width: 250px;
+}
+
+.todone-list {
+	margin-top: 20px;
+	width: 250px;
+}
+
+#todo-list li button, #todone-list li button {
+	margin-top: 30px;
+	margin-left: 10px;
+	padding: 1px;
+	background: none;
+	color: white;
+	width: 20px;
+}
+
+.quote_wrap {
+	margin-top: 200px;
+}
+
+.quote_wording {
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Style Script', cursive;
+	position: absolute;
+	top: 90%;
+	left: 0%;
+}
+
+.quote_writer {
+	margin-top: 50px;
+	font-size: 1.5em;
+	text-align: center;
+	position: absolute;
+	top: 90%;
+	left: 0%;
+	transform: translate(-50%, -50%;);
+	font-family: 'Style Script', cursive;
+}

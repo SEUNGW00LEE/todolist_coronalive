@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>javascript</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Style+Script&family=Tourney&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Style+Script&family=Tourney&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Roboto:wght@700&family=Style+Script&family=Tourney&display=swap');
+</style>
+</head>
+<body>
+	<aside class=today>
+		<div>
+			<span id= "city"></span><br>
+			<span id= "weather"></span>
+		<div>
+		<span id="date"></span>
+		</div>
+	</div>
+	</aside>
+	<div class="clock_wrap">
+	<h2 id="clock"> 00:00:00	</h2>
+	</div>
+	<div class="login_wrap">
+	<form id="login-form" class="hidden">
+		<input type="text" required maxlength="15" class= "login-input" placeholder="Name" style="color:white;"/>
+	<button class = "login-button">Login</button>
+	</form>
+	<div class="greeting_wrap">
+	<h1 id="greeting"></h1>
+	</div>
+	</div>
+	<div class="todo_wrap">
+	<form id="todo-form">
+		<input class="todo_input" placeholder="Add todolist" type="text" required style="color:white;"></form>
+		<div class="list_wrap">
+		<div class="todo-list">
+			<span> To-Do-List</span>
+		<ul id="todo-list"></ul>
+			</div>
+		<div class="todone-list">
+			<span> To-Done-List</span>
+		<ul id="todone-list"></ul>
+			</div></div>
+	</div>
+	<div id= "quote" class="quote_wrap">
+		<div class= quote_wording></div>
+		<div class= quote_writer></div>
+	</div>
+	<script src="js/clock.js"></script>
+	<script src="js/quotes.js"></script>
+	<script src="js/greetings.js"></script>
+	<script src="js/background.js"></script>
+	<script src="js/todolist.js"></script>
+	<script src="js/weather.js"></script>
+</body>
+</html>
