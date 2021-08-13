@@ -83,7 +83,7 @@ input::placeholder {
 
 #greeting {
 	font-size: 50px;
-	font-family: 'Nanum Pen Script', cursive;
+	font-family: 'Do Hyeon', sans-serif;
 }
 
 .todo_wrap {
@@ -124,6 +124,11 @@ input::placeholder {
 	width: 20px;
 }
 
+#todo-list li span, #todone-list li span {
+	font-family: 'Do Hyeon', sans-serif;
+	font-size: 1.5em;
+}
+
 .quote_wrap {
 	margin-top: 200px;
 }
@@ -131,7 +136,7 @@ input::placeholder {
 .quote_wording {
 	font-size: 2em;
 	text-align: center;
-	font-family: 'Style Script', cursive;
+font-family: 'Frank Ruhl Libre', serif;
 	position: absolute;
 	top: 90%;
 	left: 0%;
@@ -145,5 +150,5 @@ input::placeholder {
 	top: 90%;
 	left: 0%;
 	transform: translate(-50%, -50%;);
-	font-family: 'Style Script', cursive;
+	font-family: 'Frank Ruhl Libre', serif;
 }
